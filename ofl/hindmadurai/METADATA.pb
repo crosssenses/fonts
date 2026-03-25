@@ -18,7 +18,7 @@ fonts {
   weight: 400
   filename: "HindMadurai-Regular.ttf"
   post_script_name: "HindMadurai-Regular"
-  full_name: "Hind Madurai"
+  full_name: "Hind Madurai Regular"
   copyright: "Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)"
 }
 fonts {
@@ -48,7 +48,12 @@ fonts {
   full_name: "Hind Madurai Bold"
   copyright: "Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)"
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"
 subsets: "tamil"
+source {
+  repository_url: "https://github.com/itfoundry/hind-madurai"
+  commit: "3f3bd222489daea4dfec65d5de86012ed4819b5b"
+}
+primary_script: "Taml"

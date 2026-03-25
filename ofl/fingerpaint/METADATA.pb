@@ -9,8 +9,14 @@ fonts {
   weight: 400
   filename: "FingerPaint-Regular.ttf"
   post_script_name: "FingerPaint-Regular"
-  full_name: "Finger Paint"
-  copyright: "Copyright (c) 2011 by Ralph du Carrois (www.carrois.com post@carrois.com), with Reserved Font Name 'Finger Paint'"
+  full_name: "Finger Paint Regular"
+  copyright: "Copyright (c) 2011 by Ralph du Carrois, with Reserved Font Name \'Finger Paint\'"
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "menu"
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"
+source {
+  repository_url: "https://github.com/librefonts/fingerpaint"
+  commit: "cb21d1208d6f0a641a348584627dc058a2f2998a"
+}

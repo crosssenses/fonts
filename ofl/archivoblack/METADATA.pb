@@ -9,7 +9,15 @@ fonts {
   weight: 400
   filename: "ArchivoBlack-Regular.ttf"
   post_script_name: "ArchivoBlack-Regular"
-  full_name: "Archivo Black"
-  copyright: "Copyright (c) 2012, Omnibus-Type (www.omnibus-type.com|omnibus.type@gmail.com),with Reserved Font Name: Archivo"
+  full_name: "Archivo Black Regular"
+  copyright: "Copyright 2017 The Archivo Black Project Authors (https://github.com/Omnibus-Type/ArchivoBlack)"
 }
 subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"
+source {
+  repository_url: "https://github.com/Omnibus-Type/ArchivoBlack"
+  commit: "95df3c54d818473a3e362f30ae3059bd85b80036"
+}
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"

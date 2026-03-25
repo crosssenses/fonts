@@ -12,5 +12,7 @@ fonts {
   full_name: "Nanum Brush Script"
   copyright: "Copyright © 2010 NHN Corporation. All rights reserved. Font designed by Sandoll Communications Inc."
 }
-subsets: "menu"
 subsets: "korean"
+subsets: "latin"
+subsets: "menu"
+primary_script: "Kore"

@@ -1,5 +1,5 @@
 name: "Arya"
-designer: "Multiple Designers"
+designer: "Eduardo Tunni"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2015-05-20"
@@ -9,7 +9,7 @@ fonts {
   weight: 400
   filename: "Arya-Regular.ttf"
   post_script_name: "Arya-Regular"
-  full_name: "Arya"
+  full_name: "Arya Regular"
   copyright: "Copyright (c) 2014, Eduardo Rodriguez Tunni. Copyright (c) 2000, Modular Infotech, Pune, INDIA. All rights reserved."
 }
 fonts {
@@ -21,7 +21,12 @@ fonts {
   full_name: "Arya Bold"
   copyright: "Copyright (c) 2014, Eduardo Rodriguez Tunni. Copyright (c) 2000, Modular Infotech, Pune, INDIA. All rights reserved."
 }
-subsets: "menu"
 subsets: "devanagari"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"
+source {
+  repository_url: "https://github.com/etunni/Arya"
+  commit: "103dc785f25067abe0e63de7b8e839e1863877a9"
+}
+primary_script: "Deva"

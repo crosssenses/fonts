@@ -9,7 +9,7 @@ fonts {
   weight: 400
   filename: "Sarpanch-Regular.ttf"
   post_script_name: "Sarpanch-Regular"
-  full_name: "Sarpanch"
+  full_name: "Sarpanch Regular"
   copyright: "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
 }
 fonts {
@@ -57,7 +57,19 @@ fonts {
   full_name: "Sarpanch Black"
   copyright: "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
 }
-subsets: "menu"
 subsets: "devanagari"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"
+primary_script: "Deva"
+source {
+  repository_url: "https://github.com/itfoundry/sarpanch"
+  commit: "265ec8e95cad31046b4e01a553ebfbfcbeee1188"
+  files {
+    source_file: "masters/Sarpanch_0.ufo"
+    dest_file: "Sarpanch-Regular.ttf"
+  }
+  branch: "master"
+}
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"

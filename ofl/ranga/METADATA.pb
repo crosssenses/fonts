@@ -21,7 +21,10 @@ fonts {
   full_name: "Ranga Bold"
   copyright: "Copyright (c) 2014 by TipTopTyp."
 }
-subsets: "menu"
 subsets: "devanagari"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"
+primary_script: "Deva"
+classifications: "DISPLAY"
+classifications: "HANDWRITING"

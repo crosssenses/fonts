@@ -3,6 +3,11 @@ designer: "Vernon Adams"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2012-09-24"
+source {
+  repository_url: "https://github.com/librefonts/benchnine"
+  commit: "0b2979e19186f9b477fd3bde7ae77932933707eb"
+}
+
 fonts {
   name: "BenchNine"
   style: "normal"
@@ -10,7 +15,7 @@ fonts {
   filename: "BenchNine-Light.ttf"
   post_script_name: "BenchNine-Light"
   full_name: "BenchNine Light"
-  copyright: "Copyright (c) 2012, vernon adams (vern@newtypography.co.uk), with Reserved Font Name 'BenchNine'"
+  copyright: "Copyright (c) 2012, vernon adams (vern@newtypography.co.uk), with Reserved Font Name \'BenchNine\'"
 }
 fonts {
   name: "BenchNine"
@@ -19,7 +24,7 @@ fonts {
   filename: "BenchNine-Regular.ttf"
   post_script_name: "BenchNine-Regular"
   full_name: "BenchNine Regular"
-  copyright: "Copyright (c) 2012, vernon adams (vern@newtypography.co.uk), with Reserved Font Name 'BenchNine'"
+  copyright: "Copyright (c) 2012, vernon adams (vern@newtypography.co.uk), with Reserved Font Name \'BenchNine\'"
 }
 fonts {
   name: "BenchNine"
@@ -28,8 +33,8 @@ fonts {
   filename: "BenchNine-Bold.ttf"
   post_script_name: "BenchNine-Bold"
   full_name: "BenchNine Bold"
-  copyright: "Copyright (c) 2012, vernon adams (vern@newtypography.co.uk), with Reserved Font Name 'BenchNine'"
+  copyright: "Copyright (c) 2012, vernon adams (vern@newtypography.co.uk), with Reserved Font Name \'BenchNine\'"
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

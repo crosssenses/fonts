@@ -3,13 +3,18 @@ designer: "Vicente Lamónaca"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2012-04-04"
+source {
+  repository_url: "https://github.com/librefonts/chauphilomeneone"
+  commit: "ac51123e5c7a33cd48b4fdf686b91922ea68c422"
+}
+
 fonts {
   name: "Chau Philomene One"
   style: "normal"
   weight: 400
   filename: "ChauPhilomeneOne-Regular.ttf"
   post_script_name: "ChauPhilomeneOne-Regular"
-  full_name: "Chau Philomene One"
+  full_name: "Chau Philomene One Regular"
   copyright: "Copyright (c) 2010-2012, TipoType (produccion.taller@gmail.com), with Reserved Font Name \"Chau Philomene\""
 }
 fonts {
@@ -18,9 +23,9 @@ fonts {
   weight: 400
   filename: "ChauPhilomeneOne-Italic.ttf"
   post_script_name: "ChauPhilomeneOne-Italic"
-  full_name: "Chau Philomene One"
+  full_name: "Chau Philomene One Italic"
   copyright: "Copyright (c) 2010-2012, TipoType (produccion.taller@gmail.com www.tipotype.com), with Reserved Font Name \"Chau Philomene\""
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

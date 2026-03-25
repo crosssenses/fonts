@@ -9,8 +9,14 @@ fonts {
   weight: 400
   filename: "ShareTech-Regular.ttf"
   post_script_name: "ShareTech-Regular"
-  full_name: "Share Tech"
-  copyright: "Copyright (c) 2012, Carrois Type Design, Ralph du Carrois (www.carrois.com post@carrois.com), with Reserved Font Name 'Share'"
+  full_name: "Share Tech Regular"
+  copyright: "Copyright 2012 The Share Tech Project Authors (post@carrois.com), with Reserved Font Name \'Share."
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "menu"
+source {
+  repository_url: "https://github.com/m4rc1e/ShareTech"
+  commit: "2c501093f8f4fc6d985435133c8ac0fa92137431"
+}
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"

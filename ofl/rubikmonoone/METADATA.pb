@@ -10,9 +10,17 @@ fonts {
   filename: "RubikMonoOne-Regular.ttf"
   post_script_name: "RubikMonoOne-Regular"
   full_name: "Rubik Mono One Regular"
-  copyright: "Copyright (c) 2013, 2014, Hubert and Fischer, Philipp Hubert (philipp@hubertfischer.com), Sebastian Fischer (sebastian@hubertfischer.com)"
+  copyright: "Copyright 2015 The Rubik Project Authors (mail@hubertfischer.com)"
 }
-subsets: "menu"
 subsets: "cyrillic"
+subsets: "cyrillic-ext"
+subsets: "hebrew"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"
+source {
+  repository_url: "https://github.com/alexeiva/rubikmonoone"
+  commit: "7d08552d8921a0b864538b030cd0f59e7acdd4b1"
+}
+stroke: "SANS_SERIF"
+classifications: "MONOSPACE"

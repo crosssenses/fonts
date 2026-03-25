@@ -9,10 +9,18 @@ fonts {
   weight: 400
   filename: "PoiretOne-Regular.ttf"
   post_script_name: "PoiretOne-Regular"
-  full_name: "Poiret One"
-  copyright: "Copyright (c) 2011, Denis Masharov (denis.masharov@gmail.com)"
+  full_name: "Poiret One Regular"
+  copyright: "Copyright 2011 The Poiret One Project Authors (https://github.com/alexeiva/poiretone)"
 }
-subsets: "menu"
 subsets: "cyrillic"
+subsets: "cyrillic-ext"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"
+subsets: "vietnamese"
+source {
+  repository_url: "https://github.com/alexeiva/poiretone"
+  commit: "74eec8d29c9b5179cbd63b1c3d152233aa537123"
+}
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"

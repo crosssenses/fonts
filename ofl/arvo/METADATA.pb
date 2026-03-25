@@ -3,6 +3,11 @@ designer: "Anton Koovit"
 license: "OFL"
 category: "SERIF"
 date_added: "2010-11-17"
+source {
+  repository_url: "https://github.com/antonxheight/Arvo"
+  commit: "ae906e99ab549103549c68252edfcb1816a6bf08"
+}
+
 fonts {
   name: "Arvo"
   style: "normal"
@@ -18,7 +23,7 @@ fonts {
   weight: 400
   filename: "Arvo-Italic.ttf"
   post_script_name: "Arvo-Italic"
-  full_name: "Arvo Italic"
+  full_name: "Arvo-Italic"
   copyright: "Copyright 2010 Anton Koovit, Yassin Baggar."
 }
 fonts {
@@ -39,5 +44,6 @@ fonts {
   full_name: "Arvo Bold Italic"
   copyright: "Copyright 2010 Anton Koovit, Yassin Baggar."
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "menu"
+stroke: "SLAB_SERIF"

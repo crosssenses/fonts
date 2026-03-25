@@ -2,14 +2,14 @@ name: "Abhaya Libre"
 designer: "Mooniak"
 license: "OFL"
 category: "SERIF"
-date_added: "2016-01-20"
+date_added: "2016-08-30"
 fonts {
   name: "Abhaya Libre"
   style: "normal"
   weight: 400
   filename: "AbhayaLibre-Regular.ttf"
   post_script_name: "AbhayaLibre-Regular"
-  full_name: "Abhaya Libre"
+  full_name: "Abhaya Libre Regular"
   copyright: "Copyright (c) 1996-2015 Pushpananda Ekanayake (pushpanandae@gmail.com) Copyright (c) 2015 Sol Matas (sol@sonnenshine.com.ar) Copyright (c) 2015 Mooniak (hello@mooniak.com)"
 }
 fonts {
@@ -48,7 +48,13 @@ fonts {
   full_name: "Abhaya Libre ExtraBold"
   copyright: "Copyright (c) 1996-2015 Pushpananda Ekanayake (pushpanandae@gmail.com) Copyright (c) 2015 Sol Matas (sol@sonnenshine.com.ar) Copyright (c) 2015 Mooniak (hello@mooniak.com)"
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"
 subsets: "sinhala"
+source {
+  repository_url: "https://github.com/mooniak/abhaya-libre-font"
+  commit: "f53da70786fe1dba6193bdbd45a2c4159e511079"
+  config_yaml: "sources/config.yaml"
+}
+primary_script: "Sinh"

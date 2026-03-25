@@ -3,15 +3,20 @@ designer: "Typomondo"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2011-12-19"
+source {
+  repository_url: "https://github.com/librefonts/butcherman"
+  commit: "92a34525b5032c76484c49e652f649e52d1465e5"
+}
+
 fonts {
   name: "Butcherman"
   style: "normal"
   weight: 400
   filename: "Butcherman-Regular.ttf"
   post_script_name: "Butcherman-Regular"
-  full_name: "Butcherman"
-  copyright: "Copyright (c) 2011, Vernon Adams DBA Typomondo (vern@newtypography.co.uk), with Reserved Font Name \"Butcherman\"."
+  full_name: "Butcherman Regular"
+  copyright: "Copyright (c) 2011, Typomondo, with Reserved Font Name  \"Butcherman\"."
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

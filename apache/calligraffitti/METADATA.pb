@@ -9,9 +9,12 @@ fonts {
   weight: 400
   filename: "Calligraffitti-Regular.ttf"
   post_script_name: "Calligraffitti-Regular"
-  full_name: "Calligraffitti"
-  copyright: "Copyright (c) 2010 by Open Window (dathanboardman@gmail.com). All rights reserved."
+  full_name: "Calligraffitti Regular"
+  copyright: "Copyright (c) 2010 by Open Window. All rights reserved."
 }
-subsets: "menu"
 subsets: "latin"
-subsets: "latin-ext"
+subsets: "menu"
+source {
+  repository_url: "https://github.com/librefonts/calligraffitti"
+  commit: "983f7f33e1a63da6369e2f626ba9166ab7468fb9"
+}

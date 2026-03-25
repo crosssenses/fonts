@@ -1,7 +1,7 @@
 name: "Tillana"
 designer: "Indian Type Foundry"
 license: "OFL"
-category: "HANDWRITING"
+category: "DISPLAY"
 date_added: "2015-06-03"
 fonts {
   name: "Tillana"
@@ -9,7 +9,7 @@ fonts {
   weight: 400
   filename: "Tillana-Regular.ttf"
   post_script_name: "Tillana-Regular"
-  full_name: "Tillana"
+  full_name: "Tillana Regular"
   copyright: "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
 }
 fonts {
@@ -48,7 +48,12 @@ fonts {
   full_name: "Tillana ExtraBold"
   copyright: "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
 }
-subsets: "menu"
 subsets: "devanagari"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"
+source {
+  repository_url: "https://github.com/itfoundry/tillana"
+  commit: "7fccbe20b93ad8bcb3c7d7bee3afec03799bf5f6"
+}
+primary_script: "Deva"

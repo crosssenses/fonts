@@ -7,10 +7,14 @@ fonts {
   name: "Coming Soon"
   style: "normal"
   weight: 400
-  filename: "ComingSoon.ttf"
-  post_script_name: "ComingSoon"
-  full_name: "Coming Soon"
-  copyright: "Copyright (c) 2010 by Open Window (dathanboardman@gmail.com). All rights reserved."
+  filename: "ComingSoon-Regular.ttf"
+  post_script_name: "ComingSoon-Regular"
+  full_name: "Coming Soon Regular"
+  copyright: "Copyright (c) 2010 by Open Window. All rights reserved."
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "menu"
+source {
+  repository_url: "https://github.com/librefonts/comingsoon"
+  commit: "27c886594addb8deb44976ee37f829f2c8253a9d"
+}

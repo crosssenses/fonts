@@ -7,10 +7,16 @@ fonts {
   name: "Crushed"
   style: "normal"
   weight: 400
-  filename: "Crushed.ttf"
+  filename: "Crushed-Regular.ttf"
   post_script_name: "Crushed-Regular"
-  full_name: "Crushed"
-  copyright: "Copyright (c) 2010 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com). All rights reserved. Available under the Apache 2.0 licence. http://www.apache.org/licenses/LICENSE-2.0.html"
+  full_name: "Crushed Regular"
+  copyright: "Copyright (c) 2010 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All rights reserved. Available under the Apache 2.0 licence. http://www.apache.org/licenses/LICENSE-2.0.html"
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "menu"
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"
+source {
+  repository_url: "https://github.com/librefonts/crushed"
+  commit: "32870f119ec7e05ec914fbe9b99e76aaaa6ecf18"
+}

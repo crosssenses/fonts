@@ -18,9 +18,12 @@ fonts {
   weight: 400
   filename: "Flamenco-Regular.ttf"
   post_script_name: "Flamenco-Regular"
-  full_name: "Flamenco"
+  full_name: "Flamenco Regular"
   copyright: "Copyright (c) 2011 by LatinoType Limitada (info@latinotype.com), with Reserved Font Names \"Flamenco\""
 }
-subsets: "menu"
 subsets: "latin"
-subsets: "latin-ext"
+subsets: "menu"
+source {
+  repository_url: "https://github.com/librefonts/flamenco"
+  commit: "908f93e92b13062e172153d04b96a9301ca1c7c5"
+}

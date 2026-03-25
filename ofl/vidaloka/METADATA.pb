@@ -9,8 +9,12 @@ fonts {
   weight: 400
   filename: "Vidaloka-Regular.ttf"
   post_script_name: "Vidaloka-Regular"
-  full_name: "Vidaloka "
+  full_name: "Vidaloka"
   copyright: "Copyright (c) 2011, Cyreal (www.cyreal.org a@cyreal.org) with Reserved Font Name \"Vidaloka\"."
 }
 subsets: "menu"
 subsets: "latin"
+source {
+  repository_url: "https://github.com/cyrealtype/Vidaloka"
+  commit: "cc4205a19aca98f15ba551e3f8050630e54df28a"
+}
